@@ -100,7 +100,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Util' do |ss|
     ss.source_files = 'Classes/Util/ZCPUtil.{h,m}'
-    ss.public_header_files = 'Util/ZCPUtil.h'
+    ss.public_header_files = 'Classes/Util/ZCPUtil.h'
   end
 
  # s.subspec 'Router' do |ss|
