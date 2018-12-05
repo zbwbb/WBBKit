@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-        		ZCPKit, Just for test.
+        		WBBKit, Just for test.
                    DESC
 
   s.homepage     = "https://github.com/zbwbb/WBBKit.git"
@@ -64,8 +64,8 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  # s.platform     = :sos
+  s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -103,11 +103,11 @@ Pod::Spec.new do |s|
     ss.public_header_files = 'Classes/Util/ZCPUtil.h'
   end
 
-  s.subspec 'Router' do |ss|
-    ss.dependency 'Classes/Util'
-    ss.source_files = 'Classes/Router/ZCPRouter.{h,m}'
-    ss.public_header_files = 'Classes/Router/ZCPRouter.h'
-  end
+ # s.subspec 'Router' do |ss|
+   # ss.dependency 'Classes/Util'
+   # ss.source_files = 'Classes/Router/ZCPRouter.{h,m}'
+   # ss.public_header_files = 'Classes/Router/ZCPRouter.h'
+ # end
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
